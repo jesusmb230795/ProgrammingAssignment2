@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#This fuction solve the cache
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
   if (!is.null(i)) {
